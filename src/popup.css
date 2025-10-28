@@ -1,0 +1,34 @@
+body {
+  width: 320px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  margin: 0;
+  color: #111;
+}
+header {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+header img { width: 32px; height: 32px; }
+h1 { font-size: 16px; margin: 0; }
+main { padding: 12px; }
+#status { margin-bottom: 8px; }
+#riskLabel { font-weight: 600; }
+#scoreBar { height: 8px; background: #e6f2e6; border-radius: 6px; margin-top: 6px; }
+#scoreBar.high { background: #ffd7d7; }
+#scoreBar.warn { background: #fff4d6; }
+#reasonsList { margin: 8px 0 12px 0; padding-left: 18px; }
+#reasonsList li { margin-bottom: 6px; font-size: 13px; }
+#actions { display: flex; gap: 8px; }
+button {
+  flex: 1;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  background: white;
+  cursor: pointer;
+}
+button:hover { transform: translateY(-1px); }
+#footer { margin-top: 12px; font-size: 11px; color: #666; }

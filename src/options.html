@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Savr Options</title>
+  <link rel="stylesheet" href="src/options.css" />
+</head>
+<body>
+  <div class="wrap">
+    <h1>Savr options</h1>
+    <p>Manage allowlist and privacy options.</p>
+
+    <section>
+      <h2>Allowlist</h2>
+      <input id="domainInput" placeholder="example.com" />
+      <button id="addDomain">Add</button>
+      <ul id="allowlist"></ul>
+    </section>
+
+    <section>
+      <h2>Privacy</h2>
+      <label><input type="checkbox" id="telemetry" /> Allow anonymous telemetry (off by default)</label>
+    </section>
+
+    <section>
+      <button id="clear">Clear storage</button>
+    </section>
+  </div>
+
+  <script src="src/options.js"></script>
+</body>
+</html>
